@@ -140,6 +140,10 @@ def main():
                 # 'm' key toggles mapMode
                 elif event.key == K_m:
                     mapMode = not mapMode
+                elif event.key == K_y:
+                    showShadows = not showShadows
+                elif event.key == K_t:
+                    textureMode = not textureMode
                 # 'c' key triggers crouch and uncrouch
                 elif event.key == K_c:
                     if crouch == False:
